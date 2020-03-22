@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+
+body
+{
+    background: #2f302f;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+.slide
+{
+    height: 100vh;
+}
+
+.slide a
+{   
+    color: #fff;
+    text-decoration: none;
+}
+
+.slide a:visited
+{
+    color: #fff;
+}
+
+#welcome h1
+{
+    font-size: 80px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+#welcome h2
+{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+#welcome h1 span
+{
+    color: #eb34ae;
+}
+.btn
+{
+    position: relative;
+    display: inline-block;
+    padding: 10px 30px;
+    background: #eb34ae;
+    text-decoration: none;
+    color: #fff;
+}
+
+#wybor
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.slide .content
+{
+    width: 90%;
+    display: flex;
+    height: 80vh;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 160px;
+    padding-right: 160px;
+}
+
+.slide .content a .mainbox
+{
+    
+    width: 500px;
+    height: 600px;
+    display: flex;
+    position: relative;
+    text-align: center;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    background: #a8aaad;
+    flex-direction: column;
+    color: black;
+}
+
+.slide .content a .mainbox:hover{
+
+box-shadow: 0 0px 15px #eb34ae;
+}
+
+
+.smalllogo img{
+    margin-top: 50px;
+    height: 80px;
+    width: auto;
+}
+
+#przegladarka {
+    height: auto;
+}
+
+#przegladarka h1{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+#przegladarka .content
+{   
+    height: auto;
+    position: relative;
+    width: 100%;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.content .mainbox
+{
+    width: 1600px;
+    height: auto;
+    display: flex;
+    position: relative;
+    text-align: center;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    background: #a8aaad;
+    flex-direction: column;
+    color: black;
+}
+
+.step
+{
+    display: flex;
+    flex-direction: column;
+    width: 1400px;
+    align-items: center;
+}
+
+
+.step img
+{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 900px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+
+.step img:hover 
+{
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.step h2
+{
+    color: #eb34ae;
+    font-size: 40px;
+}
+
+.step h3
+{   
+    font-size: 25px;
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+
+
