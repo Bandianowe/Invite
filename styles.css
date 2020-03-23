@@ -47,8 +47,8 @@ body
 {
     font-size: 50px;
     text-align: center;
-    margin-top: 80px;
-    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 #welcome h1 span
@@ -63,6 +63,71 @@ body
     background: #eb34ae;
     text-decoration: none;
     color: #fff;
+}
+
+#agenda
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 100vh;
+}
+
+#agenda.slide
+
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#agenda.slide .nav .btn
+{
+    width: 600px;
+    text-align: center;
+}
+
+
+#agenda.slide .content
+{
+    width: 90%;
+    display: flex;
+    height: 80vh;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 160px;
+    padding-right: 160px;
+}
+
+#agenda.slide .content .mainbox
+{
+    
+    width: 500px;
+    height: 600px;
+    display: flex;
+    position: relative;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 0;
+    align-items: center;
+    justify-content: center;
+    background: #a8aaad;
+    flex-direction: column;
+    color: black;
+}
+
+#agenda.slide .content .mainbox h1
+{
+    color: #eb34ae;
+}
+
+#agenda.slide .content .mainbox ul
+{
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 50px;
+    font-size: 18px;
+    list-style-type: circle;
 }
 
 #wybor
@@ -132,7 +197,7 @@ box-shadow: 0 0px 15px #eb34ae;
     padding-left: 100px;
     padding-right: 100px;
 }
-.content .mainbox
+#przegladarka .content .mainbox
 {
     width: 1600px;
     height: auto;
@@ -147,7 +212,7 @@ box-shadow: 0 0px 15px #eb34ae;
     color: black;
 }
 
-.step
+#przegladarka .content .mainbox .step
 {
     display: flex;
     flex-direction: column;
@@ -156,7 +221,7 @@ box-shadow: 0 0px 15px #eb34ae;
 }
 
 
-.step img
+#przegladarka .content .mainbox .step img
 {
     border: 1px solid #ddd;
     border-radius: 4px;
@@ -166,19 +231,13 @@ box-shadow: 0 0px 15px #eb34ae;
     margin-bottom: 20px;
 }
 
-
-.step img:hover 
-{
-    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
-}
-
-.step h2
+#przegladarka .content .mainbox .step h2
 {
     color: #eb34ae;
     font-size: 40px;
 }
 
-.step h3
+#przegladarka .content .mainbox .step h3
 {   
     font-size: 25px;
     text-align: justify;
@@ -187,4 +246,76 @@ box-shadow: 0 0px 15px #eb34ae;
     padding-top: 10px;
 }
 
+#aplikacja
+{
+    margin-top: 200px;
+    height: auto;
+}
 
+#aplikacja h1{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+#aplikacja .content
+{   
+    height: auto;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    width: 100%;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+#aplikacja .content .mainbox
+{
+    width: 500px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    text-align: center;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    background: #a8aaad;
+    flex-direction: column;
+    color: black;
+}
+
+#aplikacja .content .mainbox .step
+{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    align-items: center;
+}
+
+#aplikacja .content .mainbox .step img
+{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 300px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#aplikacja .content .mainbox .step h2
+{
+    color: #eb34ae;
+    font-size: 23px;
+}
+
+#aplikacja .content .mainbox .step h3
+{   
+    font-size: 18px;
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
