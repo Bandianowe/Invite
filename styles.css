@@ -319,7 +319,7 @@ box-shadow: 0 0px 1.54vh #eb34ae;
     margin-bottom: 2.06vh;
 }
 
-@media (max-width: 992px)
+@media (min-width: 500px) and (max-width: 992px)
 {
     body{
         display: flex;
@@ -510,14 +510,34 @@ box-shadow: 0 0px 1.54vh #eb34ae;
         padding-right: 1.04vw;
         padding-top: 1.03vh;
     }
+}
 
+@media (max-width: 480px)
+{
+    #agenda.slide .content .mainbox h1
+    {
+        color: #eb34ae;
+        font-size: 2.75vh;
+    }
 
+    #agenda.slide .content .mainbox h2
+    {
+        font-size: 1.95vh;
+    }
 
+    #agenda.slide .content .mainbox ul
+    {
+        text-align: left;
+        margin-top: 2.06vh;
+        margin-left: 3.6vw;
+        font-size: 1.35vh;
+        list-style-type: circle;
+    }
 
-
-
-
-
+    .slide .content a .mainbox h1
+    {
+        font-size: 2.15vh;
+    }
 
 
 
