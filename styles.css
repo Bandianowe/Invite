@@ -37,18 +37,18 @@ body
 
 #welcome h1
 {
-    font-size: 80px;
+    font-size: 8.25vh;
     text-align: center;
-    margin-top: 50px;
-    margin-bottom: 20px;
+    margin-top: 5.16vh;
+    margin-bottom: 2.06vh;
 }
 
 #welcome h2
 {
-    font-size: 50px;
+    font-size: 5.16vh;
     text-align: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 3.090vh;
+    margin-bottom: 3.090vh;
 }
 
 #welcome h1 span
@@ -59,7 +59,7 @@ body
 {
     position: relative;
     display: inline-block;
-    padding: 10px 30px;
+    padding: 1.03vh 3.09vh;
     background: #eb34ae;
     text-decoration: none;
     color: #fff;
@@ -70,7 +70,6 @@ body
     display: flex;
     align-items: center;
     justify-content: center;
-
     height: 100vh;
 }
 
@@ -83,7 +82,7 @@ body
 
 #agenda.slide .nav .btn
 {
-    width: 600px;
+    width: 31.25vw;
     text-align: center;
 }
 
@@ -95,15 +94,15 @@ body
     height: 80vh;
     justify-content: space-between;
     align-items: center;
-    padding-left: 160px;
-    padding-right: 160px;
+    padding-left: 8.33vw;
+    padding-right: 8.33vw;
 }
 
 #agenda.slide .content .mainbox
 {
     
-    width: 500px;
-    height: 600px;
+    width: 26.04vw;
+    height:  61.91vh;
     display: flex;
     position: relative;
     text-align: center;
@@ -124,9 +123,9 @@ body
 #agenda.slide .content .mainbox ul
 {
     text-align: left;
-    margin-top: 20px;
-    margin-left: 50px;
-    font-size: 18px;
+    margin-top: 2.06vh;
+    margin-left: 2.6vw;
+    font-size: 1.85vh;
     list-style-type: circle;
 }
 
@@ -145,15 +144,15 @@ body
     height: 80vh;
     justify-content: space-between;
     align-items: center;
-    padding-left: 160px;
-    padding-right: 160px;
+    padding-left: 8.33vw;
+    padding-right: 8.33vw;
 }
 
 .slide .content a .mainbox
 {
     
-    width: 500px;
-    height: 600px;
+    width: 26.04vw;
+    height: 61.91vh;
     display: flex;
     position: relative;
     text-align: center;
@@ -167,13 +166,13 @@ body
 
 .slide .content a .mainbox:hover{
 
-box-shadow: 0 0px 15px #eb34ae;
+box-shadow: 0 0px 1.54vh #eb34ae;
 }
 
 
 .smalllogo img{
-    margin-top: 50px;
-    height: 80px;
+    margin-top: 5.15vh;
+    height: 8.25vh;
     width: auto;
 }
 
@@ -182,10 +181,10 @@ box-shadow: 0 0px 15px #eb34ae;
 }
 
 #przegladarka h1{
-    font-size: 40px;
+    font-size: 4.127vh;
     text-align: center;
-    margin-top: 80px;
-    margin-bottom: 20px;
+    margin-top: 8.25vh;
+    margin-bottom: 2.06vh;
 }
 
 #przegladarka .content
@@ -193,13 +192,13 @@ box-shadow: 0 0px 15px #eb34ae;
     height: auto;
     position: relative;
     width: 100%;
-    padding-top: 50px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-top: 5.159vh;
+    padding-left: 5.208vw;
+    padding-right: 5.208vw;
 }
 #przegladarka .content .mainbox
 {
-    width: 1600px;
+    width: 83.33vw;
     height: auto;
     display: flex;
     position: relative;
@@ -216,7 +215,7 @@ box-shadow: 0 0px 15px #eb34ae;
 {
     display: flex;
     flex-direction: column;
-    width: 1400px;
+    width: 72.916vw;
     align-items: center;
 }
 
@@ -226,37 +225,37 @@ box-shadow: 0 0px 15px #eb34ae;
     border: 1px solid #ddd;
     border-radius: 4px;
     padding: 5px;
-    width: 900px;
-    margin-top: 50px;
-    margin-bottom: 20px;
+    width: 46.875vw;
+    margin-top: 5.159vh;
+    margin-bottom: 2.063vh;
 }
 
 #przegladarka .content .mainbox .step h2
 {
     color: #eb34ae;
-    font-size: 40px;
+    font-size: 4.127vh;
 }
 
 #przegladarka .content .mainbox .step h3
 {   
-    font-size: 25px;
+    font-size: 2.58vh;
     text-align: justify;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 10px;
+    padding-left: 1.04vw;
+    padding-right: 1.04vw;
+    padding-top: 1.03vh;
 }
 
 #aplikacja
 {
-    margin-top: 200px;
+    margin-top:  20.64vh;
     height: auto;
 }
 
 #aplikacja h1{
-    font-size: 40px;
+    font-size: 4.127vh;
     text-align: center;
-    margin-top: 80px;
-    margin-bottom: 20px;
+    margin-top: 8.255vh;
+    margin-bottom: 2.06vh;
 }
 
 #aplikacja .content
@@ -266,13 +265,13 @@ box-shadow: 0 0px 15px #eb34ae;
     position: relative;
     align-items: flex-start;
     width: 100%;
-    padding-top: 50px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-top: 5.16vh;
+    padding-left: 5.208vw;
+    padding-right: 5.208vw;
 }
 #aplikacja .content .mainbox
 {
-    width: 500px;
+    width: 26.04vw;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -290,7 +289,7 @@ box-shadow: 0 0px 15px #eb34ae;
 {
     display: flex;
     flex-direction: column;
-    width: 400px;
+    width: 20.833vw;
     align-items: center;
 }
 
@@ -299,23 +298,227 @@ box-shadow: 0 0px 15px #eb34ae;
     border: 1px solid #ddd;
     border-radius: 4px;
     padding: 5px;
-    width: 300px;
-    margin-top: 10px;
-    margin-bottom: 20px;
+    width: 15.625vw;
+    margin-top: 1.03vh;
+    margin-bottom: 2.06vh;
 }
 
 #aplikacja .content .mainbox .step h2
 {
     color: #eb34ae;
-    font-size: 23px;
+    font-size: 2.373vh;
 }
 
 #aplikacja .content .mainbox .step h3
 {   
-    font-size: 18px;
+    font-size: 1.857vh;
     text-align: justify;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 10px;
-    margin-bottom: 20px;
+    padding-left: 1.04vw;
+    padding-right: 1.04vw;
+    padding-top: 1.03vh;
+    margin-bottom: 2.06vh;
+}
+
+@media (max-width: 992px)
+{
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #welcome h1
+    {
+        font-size: 5.55vh;
+        text-align: center;
+        margin-top: 3.16vh;
+        margin-bottom: 1.06vh;
+    }
+
+    #welcome h2
+    {
+        font-size: 4.16vh;
+        text-align: center;
+        margin-top: 3.55vh;
+        margin-bottom: 1.15vh;
+    }
+
+    #agenda
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+    #agenda.slide .nav .btn
+    {
+        width: 70.25vw;
+        text-align: center;
+    }
+
+
+    #agenda.slide .content
+    {
+        width: 100%;
+        display: flex;
+        height: 80vh;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 5.33vw;
+        padding-right: 5.33vw;
+    }
+
+    #agenda.slide .content .mainbox
+    {
+        
+        width: 37.04vw;
+        height:  61.91vh;
+        display: flex;
+        position: relative;
+        text-align: center;
+        border-radius: 20px;
+        margin-top: 0;
+        align-items: center;
+        justify-content: center;
+        background: #a8aaad;
+        flex-direction: column;
+        color: black;
+    }
+
+    #agenda.slide .content .mainbox h1
+    {
+        color: #eb34ae;
+        font-size: 4.55vh;
+    }
+
+    #agenda.slide .content .mainbox h2
+    {
+        font-size: 3.15vh;
+    }
+
+    #agenda.slide .content .mainbox ul
+    {
+        text-align: left;
+        margin-top: 2.06vh;
+        margin-left: 3.6vw;
+        font-size: 2.15vh;
+        list-style-type: circle;
+    }
+
+        .slide .content
+    {
+        width: 100%;
+        display: flex;
+        height: 80vh;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 5.33vw;
+        padding-right: 5.33vw;
+    }
+
+    .slide .content a .mainbox
+    {
+        
+        width: 37.04vw;
+        height:  61.91vh;
+        display: flex;
+        position: relative;
+        text-align: center;
+        border-radius: 20px;
+        align-items: center;
+        justify-content: center;
+        background: #a8aaad;
+        flex-direction: column;
+        color: black;
+    }
+
+    .slide .content a .mainbox:hover{
+
+    box-shadow: 0 0px 1.54vh #eb34ae;
+    }
+
+    .slide .content a .mainbox h1
+    {
+        font-size: 3.15vh;
+    }
+
+
+    .smalllogo img{
+        margin-top: 5.15vh;
+        height: 8.25vh;
+        width: auto;
+    }
+
+    #aplikacja .content
+    {   
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        width: 100%;
+        padding-top: 5.16vh;
+        padding-left: 5.208vw;
+        padding-right: 5.208vw;
+    }
+
+    #aplikacja .content .mainbox
+    {
+        width: 83.33vw;
+        height: auto;
+        display: flex;
+        position: relative;
+        text-align: center;
+        border-radius: 20px;
+        align-items: center;
+        justify-content: center;
+        background: #a8aaad;
+        flex-direction: column;
+        color: black;
+        margin-bottom: 4vh;
+    }
+
+    #aplikacja .content .mainbox .step
+    {
+        display: flex;
+        flex-direction: column;
+        width: 72.916vw;
+        align-items: center;
+    }
+
+
+    #aplikacja .content .mainbox .step img
+    {
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        padding: 5px;
+        width: 46.875vw;
+        margin-top: 5.159vh;
+        margin-bottom: 2.063vh;
+    }
+
+    #aplikacja .content .mainbox .step h2
+    {
+        color: #eb34ae;
+        font-size: 4.127vh;
+    }
+
+    #aplikacja .content .mainbox .step h3
+    {   
+        font-size: 2.58vh;
+        text-align: justify;
+        padding-left: 1.04vw;
+        padding-right: 1.04vw;
+        padding-top: 1.03vh;
+    }
+
+
+
+
+
+
+
+
+
+
+
 }
