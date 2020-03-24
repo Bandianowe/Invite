@@ -514,6 +514,70 @@ box-shadow: 0 0px 1.54vh #eb34ae;
 
 @media (max-width: 480px)
 {
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #welcome h1
+    {
+        font-size: 5.55vh;
+        text-align: center;
+        margin-top: 3.16vh;
+        margin-bottom: 1.06vh;
+    }
+
+    #welcome h2
+    {
+        font-size: 4.16vh;
+        text-align: center;
+        margin-top: 3.55vh;
+        margin-bottom: 1.15vh;
+    }
+
+    #agenda
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+
+    #agenda.slide .nav .btn
+    {
+        width: 70.25vw;
+        text-align: center;
+    }
+
+
+    #agenda.slide .content
+    {
+        width: 100%;
+        display: flex;
+        height: 80vh;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 5.33vw;
+        padding-right: 5.33vw;
+    }
+
+    #agenda.slide .content .mainbox
+    {
+        
+        width: 37.04vw;
+        height:  61.91vh;
+        display: flex;
+        position: relative;
+        text-align: center;
+        border-radius: 20px;
+        margin-top: 0;
+        align-items: center;
+        justify-content: center;
+        background: #a8aaad;
+        flex-direction: column;
+        color: black;
+    }
+
     #agenda.slide .content .mainbox h1
     {
         color: #eb34ae;
@@ -534,11 +598,109 @@ box-shadow: 0 0px 1.54vh #eb34ae;
         list-style-type: circle;
     }
 
+        .slide .content
+    {
+        width: 100%;
+        display: flex;
+        height: 80vh;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 5.33vw;
+        padding-right: 5.33vw;
+    }
+
+    .slide .content a .mainbox
+    {
+        
+        width: 37.04vw;
+        height:  61.91vh;
+        display: flex;
+        position: relative;
+        text-align: center;
+        border-radius: 20px;
+        align-items: center;
+        justify-content: center;
+        background: #a8aaad;
+        flex-direction: column;
+        color: black;
+    }
+
+    .slide .content a .mainbox:hover{
+
+    box-shadow: 0 0px 1.54vh #eb34ae;
+    }
+
     .slide .content a .mainbox h1
     {
         font-size: 2.15vh;
     }
 
 
+    .smalllogo img{
+        margin-top: 5.15vh;
+        height: 8.25vh;
+        width: auto;
+    }
 
+    #aplikacja .content
+    {   
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        width: 100%;
+        padding-top: 5.16vh;
+        padding-left: 5.208vw;
+        padding-right: 5.208vw;
+    }
+
+    #aplikacja .content .mainbox
+    {
+        width: 83.33vw;
+        height: auto;
+        display: flex;
+        position: relative;
+        text-align: center;
+        border-radius: 20px;
+        align-items: center;
+        justify-content: center;
+        background: #a8aaad;
+        flex-direction: column;
+        color: black;
+        margin-bottom: 4vh;
+    }
+
+    #aplikacja .content .mainbox .step
+    {
+        display: flex;
+        flex-direction: column;
+        width: 72.916vw;
+        align-items: center;
+    }
+
+
+    #aplikacja .content .mainbox .step img
+    {
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        padding: 5px;
+        width: 46.875vw;
+        margin-top: 5.159vh;
+        margin-bottom: 2.063vh;
+    }
+
+    #aplikacja .content .mainbox .step h2
+    {
+        color: #eb34ae;
+        font-size: 4.127vh;
+    }
+
+    #aplikacja .content .mainbox .step h3
+    {   
+        font-size: 2.58vh;
+        text-align: justify;
+        padding-left: 1.04vw;
+        padding-right: 1.04vw;
+        padding-top: 1.03vh;
+    }
 }
