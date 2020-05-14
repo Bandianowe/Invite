@@ -1,0 +1,46 @@
+from selenium import webdriver
+from selenium.webdriver.common.keys import Keys
+import time
+
+class Instabot:
+    def __init__(self, username,password):
+        self.username = username
+        self.password = password
+        self.bot = webdriver.Firefox()
+        
+
+    def login(self):
+        bot = self.bot
+        bot.get("https://instagram.com")
+        time.sleep(3)
+        login = bot.find_element_by_name("username")
+        password = bot.find_element_by_name("password")
+        login.clear()
+        password.clear()
+        login.send_keys(self.username)
+        password.send_keys(self.password)
+        password.send_keys(Keys.RETURN)
+        time.sleep(7)
+        nie_teraz = bot.find_element_by_class_name("aOOlW.HoLwm")
+        nie_teraz.click()
+
+    def lajkuj(self):
+        time.sleep(3)
+        bot = self.bot
+        bot.get("https://www.instagram.com/lacasadepapel/")
+        time.sleep(5)
+        for i in range (1,4):
+            bot.execute_script("window.scrollTo(0,document.body.scrollHeight)")
+            time.sleep(2)
+        obrazki = bot.find_elements_by_xpath("//a[contains(@href,'/p')]")
+        obrazki.pop()
+        obrazki.pop()
+        for a in obrazki:
+            bot.get(a.get_attribute("href"))
+            liczbalajkow = bot.find_element_by_xpath("/html/body/div[1]/section/main/div/div[1]/article/div[2]/section[2]/div/div/button/span")
+            print(liczbalajkow.getAttribute("innerHTML"))
+            time.sleep(30)
+
+bn = Instabot("kaminskaaamarta","7up7up7UP")
+bn.login()
+bn.lajkuj()
